@@ -1,34 +1,29 @@
 # DownloadFileInstructions
-Instructions to download a file from a Github repository.
+This is a resource for the [HailPack](https://github.com/BodenMcHale/HailPack/blob/trunk/README.md) installation guide.
 
-To download a file from a Github repository, follow these steps:
+## On-site download
+ 1. Go to the Github repository that contains the file you want to download.
+ 2. Navigate to the folder that contains the file.
+ 3. Click on the file you want to download.
+ 4. On the next screen, click the "_Download_" button.
+ 5. The file will be downloaded to your local computer.
 
-    Go to the Github repository that contains the file you want to download.
-    Navigate to the folder that contains the file.
-    Click on the file you want to download.
-    On the next screen, click the "Download" button.
-    The file will be downloaded to your local computer.
+## Command-line download
+Alternatively, you can use the Git command-line tool to download a file from a Github repository.
+ 1. Install Git on your computer if you haven't already.
 
-Alternatively, you can use the Git command-line tool to download a file from a Github repository. Here are the steps:
+ > **Tip:** [Click here to learn how to install Git]([https://github.com/BodenMcHale/DownloadFileInstructions/blob/trunk/README.md](https://github.com/git-guides/install-git)).
+ 
+ 2. Open a command prompt or terminal window.
+ 
+ 3. Navigate to the directory where you want to download the file.
+ 
+ 4. Run the following command: ```git clone <repository_url>```
 
-    Install Git on your computer if you haven't already.
-    Open a command prompt or terminal window.
-    Navigate to the directory where you want to download the file.
-    Run the following command:
-
-bash
-
-git clone <repository_url>
-
-Replace <repository_url> with the URL of the Github repository you want to clone. This will download the entire repository to your local computer.
-5. Navigate to the directory containing the file you want to download.
-
-    Copy the file to your local directory by running the following command:
-
-php
-
-git checkout <branch_name> -- <file_path>
-
-Replace <branch_name> with the name of the branch containing the file you want to download and <file_path> with the path to the file relative to the repository root.
-
-The file will be copied to your local directory.
+> **Note:** Replace <_repository_url_> with the URL of the Github repository you want to clone.
+ 
+ 5. Navigate to the directory containing the file you want to download.
+ 
+ 6. Copy the file to your local directory by running the following command: ```git checkout <branch_name> -- <file_path>```
+ 
+ > **Note:** Replace <_branch_name_> with the name of the branch containing the file you want to download and <_file_path_> with the path to the file relative to the repository root.
