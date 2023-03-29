@@ -1,4 +1,4 @@
-# DownloadFileInstructions
+# GithubDownloadGuide
 This is a resource for the [HailPack](https://github.com/BodenMcHale/HailPack/blob/trunk/README.md) installation guide.
 
 ## On-site download
