@@ -26,3 +26,6 @@ Alternatively, you can use the Git command-line tool to download a file from a G
  6. Copy the file to your local directory by running the following command: ```git checkout <branch_name> -- <file_path>```
  
  > **Note:** Replace <_branch_name_> with the name of the branch containing the file you want to download and <_file_path_> with the path to the file relative to the repository root.
+
+## TODO
+- Add visuals
